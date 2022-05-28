@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/844985f32c.js" crossorigin="anonymous"></script>
+    <style>
+        .container,.left,.center,.right{
+            display: flex;
+        }
+        .container{
+        
+            justify-content: space-between;
+        }
+        .header a{
+            text-decoration: none;
+            color: black;
+        }
+        .logo a{
+            color: red;
+        }
+        .profile a{
+            border-radius: 50%;
+        }
+        .profile a img{
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+                <div class="left">
+                    <div class="menu">
+                      <a href="#">
+                          <i class="fa-solid fa-bars"></i>
+                      </a>
+                    </div>
+                    <div class="logo">
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="search">
+                        <input type="search" name="search" id="search1" placeholder="Search">
+                    </div>
+                    <div class="submit">
+                        <a href="#">
+                            <button><i class="fa fa-search"></i></button>
+                        </a>
+                    </div>
+                    <div class="mic">
+                        <a href="#">
+                            <i class="fa-solid fa-microphone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="grid">
+                        <a href="#">
+                            <i class="fa fa-th"></i>
+                        </a>
+                    </div>
+                    <div class="bell">
+                        <a href="#">
+                            <i class="fa fa-bell"></i>
+                        </a>
+                    </div>
+                    <div class="profile">
+                        <a href="#">
+                            <img src="/images/dark-wallpapers.jpg" alt="Image" height="100px" width="100px">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+</body>
+</html>
